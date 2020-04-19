@@ -26,3 +26,5 @@ $router->get("kota", "KotaController@index");
 $router->post("kota/insert", "KotaController@store");
 $router->patch("kota/update", "KotaController@update");
 $router->delete("kota/{id}", "KotaController@destroy");
+
+$router->get("ads", "AdsController@index");
